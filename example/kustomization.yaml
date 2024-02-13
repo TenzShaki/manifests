@@ -57,3 +57,11 @@ resources:
 
 # Kubeflow Pipelines
 - ../apps/pipeline/upstream/env/cert-manager/platform-agnostic-multi-user
+# Katib
+- ../apps/katib/upstream/installs/katib-with-kubeflow
+# Training Operator
+- ../apps/training-operator/upstream/overlays/kubeflow
+
+# KServe
+- ../contrib/kserve/kserve
+- ../contrib/kserve/models-web-app/overlays/kubeflow
